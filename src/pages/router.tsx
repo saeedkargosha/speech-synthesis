@@ -3,7 +3,7 @@ import Error from './error';
 import RootLayout from './layout';
 import HomePage from './home';
 
-export const router = createBrowserRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route errorElement={<Error />} element={<RootLayout />}>
       <Route path='/' element={<HomePage />} />

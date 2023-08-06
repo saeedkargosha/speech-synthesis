@@ -29,7 +29,7 @@
       "@configs/*": ["src/configs/*"],
       "@api": ["./src/api/*"],
       "@providers": ["./src/providers/*"],
-      "@pages": ["./src/pages/*"]
+      "@pages/*": ["./src/pages/*"]
     }
   },
   "include": ["src", "**/*.ts", "**/*.tsx"],
