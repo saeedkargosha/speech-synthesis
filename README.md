@@ -8,8 +8,8 @@
 #### APP
 
 - The project is a basic react app, and such should come with all of the standard built ins of react.
-- Core logic for the project is hosted in `lib` folder.
-- `content.ts` file in the lib folder is responsible for fetching and parsing content into sentences.
+- `ssml.ts` file in the api folder is responsible for fetching.
+- `parse.ts` file in the utils folder is responsible for parsing content into sentences.
 - `speech.ts` file contains an implementation for speech engine using the local window.speechSynthesis API.
 - `useSpeech.ts` reactifies the speech engine implementation and returns the controls for playback and gives information about the currently spoken word and sentence.
 
