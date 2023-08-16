@@ -27,7 +27,7 @@
       "@containers/*": ["./src/containers/*"],
       "@utils/*": ["./src/utils/*"],
       "@configs/*": ["src/configs/*"],
-      "@api": ["./src/api/*"],
+      "@api/*": ["./src/api/*"],
       "@providers": ["./src/providers/*"],
       "@pages/*": ["./src/pages/*"]
     }

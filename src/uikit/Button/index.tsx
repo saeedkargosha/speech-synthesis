@@ -5,6 +5,8 @@ interface IProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'size' | 
   disabled?: boolean;
   uppercase?: boolean;
   isLoading?: boolean;
+  variant?: 'primary' | 'secondary';
+  type?: 'error' | 'default';
 }
 
 const Button = ({
@@ -12,12 +14,16 @@ const Button = ({
   disabled = false,
   className = '',
   uppercase = false,
+  variant = 'primary',
+  type = 'default',
   isLoading = false,
   ...rest
 }: IProps) => {
-  const classname = clsx('', {
+  const classname = clsx('font-medium rounded-lg text-sm px-5 py-2.5', {
     [className]: className,
-    upp: uppercase,
+    'text-gray-900 bg-white rounded-lg border border-gray-200': variant === 'secondary',
+    'text-white bg-blue-700': variant === 'primary',
+    'text-white bg-red-700': type === 'error',
   });
   return (
     <button className={classname} disabled={disabled} {...rest}>
