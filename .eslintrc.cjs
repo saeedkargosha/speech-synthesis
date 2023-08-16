@@ -22,6 +22,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires':'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/no-direct-mutation-state': 'off',
     'react/no-deprecated': 'off',
