@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + Express + SpeechSynthesis
+# React + SpeechSynthesis
 
 ## The Setup
 
