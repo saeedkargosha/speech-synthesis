@@ -1,4 +1,4 @@
-import { getWordByCharIndexAndLength, parseContentIntoSentences } from '@utils/parse';
+import { getWordByCharIndexAndLength, parseContentIntoSentences } from '@lib/parse';
 import { describe, expect, test } from 'vitest';
 
 describe('parseContentIntoSentences', () => {

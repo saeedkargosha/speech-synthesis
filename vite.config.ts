@@ -9,10 +9,9 @@ export default defineConfig({
   resolve: {
     alias: {
       '@uikit': path.resolve(__dirname, './src/uikit'),
-      '@api': path.resolve(__dirname, './src/api'),
+      '@lib': path.resolve(__dirname, './src/lib'),
       '@hooks': path.resolve(__dirname, './src/hooks'),
       '@components': path.resolve(__dirname, './src/components'),
-      '@utils': path.resolve(__dirname, './src/utils'),
       '@configs': path.resolve(__dirname, './src/configs'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@providers': path.resolve(__dirname, './src/providers'),

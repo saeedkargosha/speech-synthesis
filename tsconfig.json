@@ -25,9 +25,8 @@
       "@hooks/*": ["./src/hooks/*"],
       "@components/*": ["./src/components/*"],
       "@containers/*": ["./src/containers/*"],
-      "@utils/*": ["./src/utils/*"],
       "@configs/*": ["src/configs/*"],
-      "@api/*": ["./src/api/*"],
+      "@lib/*": ["./src/lib/*"],
       "@providers": ["./src/providers/*"],
       "@pages/*": ["./src/pages/*"]
     }

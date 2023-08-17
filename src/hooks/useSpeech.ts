@@ -1,5 +1,5 @@
-import { getWordByCharIndexAndLength } from '@utils/parse';
-import { PlayingState, SpeechEngine, SpeechEngineOptions, createSpeechEngine } from '@utils/speech';
+import { getWordByCharIndexAndLength } from '@lib/parse';
+import { PlayingState, SpeechEngine, SpeechEngineOptions, createSpeechEngine } from '@lib/speech';
 import { useEffect, useState, useRef } from 'react';
 
 /*

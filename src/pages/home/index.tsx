@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { SSMLService } from '@api/ssml';
-import { parseContentIntoSentences } from '@utils/parse';
+import { SSMLService } from '@lib/ssml';
+import { parseContentIntoSentences } from '@lib/parse';
 import { useSpeech } from '@hooks/useSpeech';
 import { Controls } from '@components/Controls';
 import { CurrentlyReading } from '@components/CurrentlyReading';
