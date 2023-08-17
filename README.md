@@ -89,3 +89,7 @@ yarn type-check
 - Vite is used as the build tool and development server.
 - Express is used for the API server during development.
 - Vitest is used for testing and generating coverage reports.
+
+### Screenshot.
+
+![Example](screenshot.PNG)
