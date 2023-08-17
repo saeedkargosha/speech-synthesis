@@ -90,6 +90,7 @@ yarn type-check
 - Express is used for the API server during development.
 - Vitest is used for testing and generating coverage reports.
 
-### Screenshot.
+## Screenshot
 
-![Example](screenshot.PNG)
+![Example](screenshot1.PNG)
+![Example](screenshot2.PNG)
