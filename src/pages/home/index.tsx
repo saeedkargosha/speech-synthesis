@@ -19,12 +19,16 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className='block max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow space-y-6'>
-      <div>
-        <CurrentlyReading currentSentence={currentSentence} currentWord={currentWord} />
+    <div className='grid grid-cols-[3fr_1fr] gap-3 mt-20'>
+      <div className=''>
+        <div>
+          <CurrentlyReading currentSentence={currentSentence} currentWord={currentWord} />
+        </div>
+        <div className='text-xl text-slate-500 mt-10'>{sentences.map((sentence) => sentence)}</div>
       </div>
-      <div className='text-base text-neutral-600'>{sentences.map((sentence) => sentence)}</div>
-      <Controls controles={controls} />
+      <div className='grid justify-center items-center text-center relative'>
+        <Controls controles={controls} />
+      </div>
     </div>
   );
 }

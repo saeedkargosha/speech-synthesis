@@ -7,7 +7,7 @@ interface CurrentlyReadingProps {
 }
 export const CurrentlyReading: FC<CurrentlyReadingProps> = ({ currentSentence, currentWord }) => {
   return (
-    <div className='text-2xl text-neutral-900'>
+    <div className='text-5xl text-slate-600'>
       <Highlighter searchWords={[currentWord]} autoEscape={true} textToHighlight={currentSentence} />
     </div>
   );
